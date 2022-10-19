@@ -1,0 +1,118 @@
+.banner{
+	background-image: url("banner5.jpg");
+	border-image-repeat: no-repeat;
+	width: 1350px;
+	height: 730px;
+	background-size: cover;
+	}
+.title_header{
+
+	position: relative;
+	top: 5%;
+
+	left: 5%;
+}
+.title_header h1{
+	color: #fff;
+	font-size: 46px;
+	line-height: 80px;
+	font-weight: 800;
+}
+.user_name{
+	color: orange;
+}
+.upload__content{
+	position: relative;
+	top: 10%;
+	left: 5%;
+}
+.formText{
+	color: #000;
+}
+.part2{
+	position: relative;
+	float: left;
+	left: 5%;
+}
+@media screen and (max-width: 480px) {
+	.header{
+		width: 5%;
+	}
+	.banner{
+		width: 100%;
+	}
+	.part2 select{
+		width: 50%;
+	}
+	.part3 input{
+		margin-left: -30%;
+	}
+	.part3 label{
+		margin-left: -30%;
+	}
+	.display_works{
+		width: 300%;
+	}
+	.content_container{
+		width: 270%;
+	}
+	.content_container a{
+		font-size: 30px;
+	}
+	.content_container h5{
+		font-size: 25px;
+	}
+	.content_container p{
+		font-size: 20px;
+	}
+	}
+.part3{
+	margin-left: 50%;
+	
+
+}
+.upload__content label{
+	color: #fff;
+	font-size: 22px;
+}
+.upload__content input{
+	border-width: 0px;
+}
+.upload__content select{
+	font-size: 22px;
+
+}
+.upload__content option{
+	width: 20%;
+}
+.upload__content h3{
+	color: #000;
+}
+.submit__btn{
+	position: relative;
+	margin-top: 1%;
+}
+.submit__btn input{
+	background-color: orange;
+	border-width: 0px;
+	font-size: 20px;
+	color: #fff;
+	border-radius: 5px;
+	transition-duration: 0.4s;
+}
+.submit__btn input:hover{
+	color: orange;
+	background-color: #fff;
+}
+.display_works{
+	margin-left: 8%;
+	background-color: lightgrey;
+	width: 80%;
+	border-radius: 5px;
+}
+.content_container{
+	margin-top: 5%;
+}
+.display_works h4,h5,p{
+	margin-left: 3%;
+}

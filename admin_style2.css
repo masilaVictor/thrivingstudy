@@ -1,0 +1,81 @@
+body{
+	background-color: #c1c1c1;
+}
+.items{
+	display: block;
+	padding: 17px;
+	font-size: 20px;
+	color: #fff;
+	text-decoration: none;
+	font-family: Tahoma;
+	background-color: #1f1f1f;
+	border: none;
+	width: 100%;
+	text-align: left;
+
+}
+.items:hover{
+	background-color: #fff;
+	color: #1f1f1f;
+}
+
+.items_wrapper{
+	margin-top: 1%;
+	margin-left: 2%;
+}
+.logo{
+
+
+	width: 60%;
+	margin-top: 1%;
+	margin-left: 15%;
+}
+.left_sidebar{
+	background-color: #1f1f1f;
+	width: 15%;
+	float: left;
+}
+.left_sidebar h1{
+	color: #fff;
+	font-family: Tahoma;
+	font-size: 24px;
+	text-align: center;
+}
+.search_country label{
+	font-size: 20px;
+	font-weight: 500;
+	font-family: Tahoma;
+	color: blue;
+}
+.search_country select{
+	font-size: 20px;
+	font-family: Tahoma;
+}
+.search_id label{
+	font-size: 20px;
+	font-weight: 500;
+	font-family: Tahoma;
+	color: blue;
+}
+.search_id input{
+	font-size: 20px;
+	font-family: Tahoma;
+}
+.main_dashboard h2{
+	font-family: Tahoma;
+}
+
+.search_country input{
+	margin-left: 10%;
+	font-size: 20px;
+	background-color: blue;
+	color: #fff;
+	border: none;
+	padding: 5px;
+	border-radius: 5px;
+}
+.search_country input:hover{
+	background-color: orange;
+	color: blue;
+	transition-duration: 0.6s;
+}

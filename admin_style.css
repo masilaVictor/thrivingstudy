@@ -1,0 +1,40 @@
+.items{
+	display: block;
+	padding: 17px;
+	font-size: 20px;
+	color: #fff;
+	text-decoration: none;
+	font-family: Tahoma;
+	background-color: #1f1f1f;
+	border: none;
+	width: 100%;
+	text-align: left;
+
+}
+.items:hover{
+	background-color: #fff;
+	color: #1f1f1f;
+}
+
+.items_wrapper{
+	margin-top: 1%;
+	margin-left: 2%;
+}
+.logo{
+
+
+	width: 60%;
+	margin-top: 1%;
+	margin-left: 15%;
+}
+.left_sidebar{
+	background-color: #1f1f1f;
+	width: 15%;
+	float: left;
+}
+.left_sidebar h1{
+	color: #fff;
+	font-family: Tahoma;
+	font-size: 24px;
+	text-align: center;
+}

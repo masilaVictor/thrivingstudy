@@ -1,0 +1,51 @@
+.gradient-custom-3 {
+/* fallback for old browsers */
+background: #84fab0;
+
+/* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5))
+}
+.gradient-custom-4 {
+/* fallback for old browsers */
+background: #84fab0;
+
+/* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1))
+}
+* {
+  	box-sizing: border-box;
+  	font-family: -apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, sans-serif;
+  	font-size: 16px;
+  	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
+}
+body {
+  	background-color: #435165;
+}
+.wrapper{
+	float: right;
+	margin-right: 10%;
+	margin-top: 3%;
+	background-color: orange;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+
+}
+.wrapper h2, p, label{
+	color: #fff;
+}
+.signimage{
+	float: left;
+	margin-left: 15%;
+}
+.signimage h1{
+	margin-top: -20%;
+	margin-left: 15%;
+	color: #fff;
+}
